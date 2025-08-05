@@ -1,0 +1,16 @@
+HTML Tags - building blocks
+
+<> - are angle brackets
+
+<p> - Opening tag
+
+</p> - Closing tag
+
+<link> - self closing Tags
+<img> - 
+<input>
+
+HTML Elements
+
+<p> - This is a paragraph</p>
+Opening tag => content => closing tag
