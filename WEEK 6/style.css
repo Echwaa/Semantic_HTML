@@ -1,0 +1,15 @@
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #242424;
+  color: white;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 10px;
+}

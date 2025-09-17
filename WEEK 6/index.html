@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interactive JavaScript Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Interactive Web Page</h1>
+
+  <!-- Part 1: Event handling display -->
+  <button id="alertButton">Click Me!</button>
+  <div id="message"></div>
+
+  <!-- Part 2: Light/Dark mode toggle -->
+  <button id="toggleMode">Toggle Light/Dark Mode</button>
+
+  <!-- Part 3: Form with validation -->
+  <form id="signupForm" novalidate>
+    <label>
+      Name: <input type="text" id="name" name="name" />
+      <span class="error" id="nameError"></span>
+    </label><br />
+    <label>
+      Email: <input type="email" id="email" name="email" />
+      <span class="error" id="emailError"></span>
+    </label><br />
+    <label>
+      Password: <input type="password" id="password" name="password" />
+      <span class="error" id="passwordError"></span>
+    </label><br/>
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
